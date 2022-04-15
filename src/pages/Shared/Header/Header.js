@@ -4,7 +4,7 @@ import logo from '../../../logo.png'
 
 const Header = () => {
     return (
-        <nav className='flex items-center justify-center border mt-10'>
+        <nav className='flex items-center justify-center border-none mt-10 relative'>
             <img className='w-32 h-14 mr-20' src={logo} alt="logo" />
             <input className='py-2 px-5 mx-2 border-black h-11 w-96' type="text" placeholder='Search Here' />
             <Link className='py-2 px-5 mx-2' to={'/news'}>News</Link>
