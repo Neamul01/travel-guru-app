@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import { Link } from 'react-router-dom';
 import coxs from '../../images/Rectangle1.jpg'
 import sentMartin from '../../images/Rectangle3.png';
 import sundarban from '../../images/sundorbon.png'
@@ -8,13 +9,16 @@ import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutl
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 
 const Home = () => {
+
     return (
         <div className=' '>
             <div className='flex items-center justify-center mt-16 text-white'>
                 <div className=' ml-16'>
                     <h2 className='uppercase text-8xl'>cox's bazar</h2>
                     <p className='text-white my-8'>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
-                    <button className='text-black bg-yellow-500 rounded-lg py-3 px-6'>Booking <ArrowRightAltIcon className='font-4xl' /></button>
+                    <Link to={'booking'}
+                        className='text-black bg-yellow-500 rounded-lg py-4 px-6'
+                    >Booking <ArrowRightAltIcon className='font-4xl' /></Link>
                 </div>
 
                 <div className='w-96 h-96 m-2 px-3 hover:border-yellow-500 border-4 hover:border-4 rounded-2xl relative'
