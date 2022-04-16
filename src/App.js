@@ -11,6 +11,7 @@ import Destination from './pages/Destination/Destination';
 import News from './pages/News/News';
 import Contact from './pages/Contact/Contact';
 import coxs from './images/Rectangle1.jpg'
+import SignUp from './pages/SignUp/SignUp';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/booking' element={<Booking></Booking>}></Route>
         <Route path='/search' element={<Search></Search>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/destination' element={<Destination></Destination>}></Route>

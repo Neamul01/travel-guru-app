@@ -19,7 +19,7 @@ const Login = () => {
                     <p className="text-red-400 ml-auto underline">Forgot Password</p>
                 </div>
                 <button className='w-full bg-yellow-500 py-2 my-4 mt-10 rounded-sm text-base'>Login</button>
-                <p className='text-black text-center mt-4'>Don't Have an Account? <Link to={'/login'} className='text-red-400 underline'>Create An Account</Link> </p>
+                <p className='text-black text-center mt-4'>Don't Have an Account? <Link to={'/signup'} className='text-red-400 underline'>Create An Account</Link> </p>
             </div>
             <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                 <SocialLogin></SocialLogin>
