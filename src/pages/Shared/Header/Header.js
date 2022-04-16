@@ -7,7 +7,9 @@ import SearchIcon from '@mui/icons-material/Search';
 const Header = () => {
     return (
         <nav className='flex items-center justify-center border-none pt-10 relative text-white'>
-            <img className='w-32 h-14 mr-20' src={logo} alt="logo" />
+            <Link to={'/'}>
+                <img className='w-32 h-14 mr-20' src={logo} alt="logo" />
+            </Link>
             <div className='relative'>
                 <input
                     className='py-2 px-5 pl-9 mx-2 border-white border-2 outline-none h-11 w-96 rounded-md search-custom'
