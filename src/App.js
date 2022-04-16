@@ -14,7 +14,7 @@ import coxs from './images/Rectangle1.jpg'
 
 function App() {
   return (
-    <div style={{ backgroundImage: `linear-gradient(to left, rgba(0, 0, 0, 0.663), rgba(0, 0, 0, 0.619)), url(${coxs})`, backgroundSize: 'cover' }}>
+    <div className='h-screen' style={{ backgroundImage: `linear-gradient(to left, rgba(0, 0, 0, 0.663), rgba(0, 0, 0, 0.619)), url(${coxs})`, backgroundSize: 'cover' }}>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

@@ -9,8 +9,8 @@ import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOu
 
 const Home = () => {
     return (
-        <div className='h-full relative'>
-            <div className='flex items-center h-screen text-white'>
+        <div className=' '>
+            <div className='flex items-center justify-center mt-16 text-white'>
                 <div className=' ml-16'>
                     <h2 className='uppercase text-8xl'>cox's bazar</h2>
                     <p className='text-white my-8'>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
@@ -35,7 +35,7 @@ const Home = () => {
                     <h2 className='uppercase text-3xl absolute bottom-6'>sundarban</h2>
                 </div>
             </div>
-            <div className='text-white absolute bottom-12 left-1/2 h-auto '>
+            <div className='text-white text-center mt-6 h-auto '>
                 <span><ArrowCircleLeftOutlinedIcon style={{ fontSize: '3rem', cursor: "pointer" }} className='m-1' /></span>
                 <span><ArrowCircleRightOutlinedIcon style={{ fontSize: '3rem', cursor: "pointer" }} className='m-1' /></span>
             </div>
