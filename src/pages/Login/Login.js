@@ -6,7 +6,7 @@ const Login = () => {
     return (
         <div className='w-full h-full bg-white relative'>
             <div
-                style={{ width: '570px', height: '450px' }}
+                style={{ width: '520px', height: '430px' }}
                 className='border-2 
                 border-gray-400 rounded-sm bg-white mx-auto absolute top-60 
                 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-12 py-8'>
