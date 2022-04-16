@@ -18,7 +18,7 @@ const SignUp = () => {
                 <input className='outline-none w-full border-b-2 border-gray-400 block h-8 mt-8 mb-3' type="password" id='password' name='password' placeholder='Password' />
                 <input className='outline-none w-full border-b-2 border-gray-400 block h-8 mt-8' type="password" id='confirmPassword' name='confirmPassword' placeholder='Confirm Password' />
 
-                <button className='w-full bg-yellow-500 py-2 mt-6 rounded-sm text-base'>Login</button>
+                <button className='w-full bg-yellow-500 hover:bg-yellow-600 py-2 mt-6 rounded-sm text-base'>Login</button>
                 <p className='text-black text-center mt-2'>Already Have an Account? <Link to={'/login'} className='text-red-400 underline'>Login</Link> </p>
             </div>
             <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 social-custom'>
